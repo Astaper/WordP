@@ -143,7 +143,7 @@ h2.title {
 
 }
 
-.waiting .waiting_header {
+.waiting .waiting_header, .finish .finish_header {
     color: #252525;
     text-align: center;
     font-family: Roboto;
@@ -154,7 +154,11 @@ h2.title {
     text-transform: uppercase;
 }
 
-.waiting .waiting_divider {
+.finish .finish_header {
+    color: #FFF;
+}
+
+.waiting .waiting_divider, .finish .finish_divider {
     width: 217px;
     margin: 0 auto;
     height: 4px;
@@ -232,4 +236,10 @@ h2.title {
     top: 48px;
     left: -190px;
     z-index: -1;
+}
+
+.finish {
+    min-height: 447px;
+    padding: 86px 0 79px 0;
+    background: url('../img/bg/secong_bg.png'); center center/cover no-repeat;
 }
