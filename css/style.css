@@ -143,7 +143,8 @@ h2.title {
 
 }
 
-.waiting .waiting_header, .finish .finish_header {
+.waiting .waiting_header,
+.finish .finish_header {
     color: #252525;
     text-align: center;
     font-family: Roboto;
@@ -158,7 +159,8 @@ h2.title {
     color: #FFF;
 }
 
-.waiting .waiting_divider, .finish .finish_divider {
+.waiting .waiting_divider,
+.finish .finish_divider {
     width: 217px;
     margin: 0 auto;
     height: 4px;
@@ -241,5 +243,38 @@ h2.title {
 .finish {
     min-height: 447px;
     padding: 86px 0 79px 0;
-    background: url('../img/bg/secong_bg.png'); center center/cover no-repeat;
+    background: url('../img/bg/secong_bg.png');
+    center center/cover no-repeat;
+}
+
+.finish .finish_wrapper {
+    margin-top: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.finish .finish_wrapper .finish_item {
+    width: 204px;
+}
+
+.finish .finish_wrapper .finish_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 115px;
+    height: 115px;
+    background-color: #b4e2ff;
+    border-radius: 100%;
+}
+
+.finish .finish_wrapper .finish_item .finish_descr {
+    margin-top: 25px;
+    text-align: center;
+    color: #efefef;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+    
 }
