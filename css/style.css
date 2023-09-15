@@ -94,7 +94,8 @@ h2.title {
     line-height: normal;
 }
 
-.promo .promo_btn {
+.promo .promo_btn,
+.present .present_btn {
     display: block;
     margin: 0 auto;
     margin-top: 73px;
@@ -276,5 +277,60 @@ h2.title {
     font-size: 17px;
     font-weight: 300;
     line-height: 20px;
-    
+
+}
+
+.present {
+    padding: 86px 0 87px 0;
+    background: url('../img/bg/Rectangle_2_copy.png');
+}
+
+.present .bonus {
+    display: flex;
+    justify-content: center;
+}
+
+.present .bonus_descr {
+    margin-top: 42px;
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 43px;
+    text-align: center;
+}
+
+.first {
+    padding: 82px 0 64px 0;
+}
+
+.first .first_item {
+    display: flex;
+    justify-content: center;
+}
+
+.first .first_descr {
+    margin-top: 37px;
+    color: #252525;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.first .two_descr {
+    margin-top: 30px;
+    color: #299cbd;
+    font-family: "Roboto - Black";
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
 }
