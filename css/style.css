@@ -309,7 +309,7 @@ h2.title {
     justify-content: center;
 }
 
-.first .first_descr {
+h2.first_descr {
     margin-top: 37px;
     color: #252525;
     font-family: Roboto;
@@ -322,7 +322,7 @@ h2.title {
     text-transform: uppercase;
 }
 
-.first .two_descr {
+h2.two_descr {
     margin-top: 30px;
     color: #299cbd;
     font-family: "Roboto - Black";
@@ -333,4 +333,16 @@ h2.title {
     line-height: 12px;
     text-align: center;
     text-transform: uppercase;
+}
+
+h4.first_three {
+    margin-top: 25px;
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-align: center;
 }
