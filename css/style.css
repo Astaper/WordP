@@ -244,8 +244,7 @@ h2.title {
 .finish {
     min-height: 447px;
     padding: 86px 0 79px 0;
-    background: url('../img/bg/secong_bg.png');
-    center center/cover no-repeat;
+    background: url('../img/bg/secong_bg.png') center center/cover no-repeat;
 }
 
 .finish .finish_wrapper {
@@ -282,7 +281,7 @@ h2.title {
 
 .present {
     padding: 86px 0 87px 0;
-    background: url('../img/bg/Rectangle_2_copy.png');
+    background: url('../img/bg/Rectangle_2_copy.png') center center/cover no-repeat;
 }
 
 .present .bonus {
@@ -345,4 +344,36 @@ h4.first_three {
     letter-spacing: normal;
     line-height: 20px;
     text-align: center;
+}
+
+footer {
+    min-height: 166px;
+    padding: 61px 0 69px 0;
+    background-color: #1a1a1a;
+}
+
+.end {
+    margin: 0 auto;
+    color: #888888;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 21px;
+    text-align: center;
+    
+}
+
+footer a {
+    color: #888888;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+    text-decoration: none;
+}
+
+.lined {
+    text-decoration: underline;
 }
